@@ -1,0 +1,339 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #E5243B;
+}
+
+.top {
+  height: 25vh;
+  margin: 0 50px;
+  padding: 50px 0;
+}
+
+.logo img {
+  max-width: 100%;
+  width: 500px;
+  cursor: pointer;
+}
+
+.maal img {
+  max-width: 100%;
+  width: 200px;
+  cursor: pointer;
+}
+
+.top-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.verdensmaal-icons {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 40px;
+}
+
+.icon1 {
+  background-image: url("images/verdensmålsikoner/icon-cmyk-1.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.icon1:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.icon2 {
+  background-image: url("images/verdensmålsikoner/icon-cmyk-2.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.icon2:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.icon3 {
+  background-image: url("images/verdensmålsikoner/icon-cmyk-3.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.icon3:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.icon4 {
+  background-image: url("images/verdensmålsikoner/icon-cmyk-4.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.icon4:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.icon5 {
+  background-image: url("images/verdensmålsikoner/icon-cmyk-5.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.icon5:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.icon6 {
+  background-image: url("images/verdensmålsikoner/icon-cmyk-6.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.icon6:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.icon7 {
+  background-image: url("images/verdensmålsikoner/icon-cmyk-7.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.icon7:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.icon8 {
+  background-image: url("images/verdensmålsikoner/icon-cmyk-8.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.icon8:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.icon9 {
+  background-image: url("images/verdensmålsikoner/icon-cmyk-9.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.icon9:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.icon10 {
+  background-image: url("images/verdensmålsikoner/icon-cmyk-10.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.icon10:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.icon11 {
+  background-image: url("images/verdensmålsikoner/icon-cmyk-11.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.icon11:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.icon12 {
+  background-image: url("images/verdensmålsikoner/icon-cmyk-12.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.icon12:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.icon13 {
+  background-image: url("images/verdensmålsikoner/icon-cmyk-13.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.icon13:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.icon14 {
+  background-image: url("images/verdensmålsikoner/icon-cmyk-14.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.icon14:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.icon15 {
+  background-image: url("images/verdensmålsikoner/icon-cmyk-15.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.icon15:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.icon16 {
+  background-image: url("images/verdensmålsikoner/icon-cmyk-16.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.icon16:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.icon17 {
+  background-image: url("images/verdensmålsikoner/icon-cmyk-17.jpg");
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.icon17:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  background: url("images/verdensmålsikoner/BG/1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  z-index: 99;
+}
+/*# sourceMappingURL=style.css.map */
